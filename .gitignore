@@ -1,0 +1,5 @@
+node_modules
+workspaces/siteOne/.cache
+workspaces/siteOne/dist
+workspaces/siteTwo/.cache
+workspaces/siteTwo/dist
