@@ -1,2 +1,2 @@
 [build]
-  ignore = "git diff --quiet master workspaces/${SITE}/ workspaces/shared/"
+  ignore = "git diff --quiet master workspaces/${SITE}/ && git diff --quiet master workspaces/shared/"
