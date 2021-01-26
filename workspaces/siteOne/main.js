@@ -7,8 +7,8 @@ export default () => {
 
   const message = "javascript from siteOne"
   console.log(message)
-  const a = 4;
-  const b = 4;
+  const a = 5;
+  const b = 5;
   console.log(`${a} + ${b} =`, add(a, b))
   document.getElementById("demo").innerHTML = message + ' ' +  add(a, b);
 }
