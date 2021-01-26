@@ -7,8 +7,8 @@ export default () => {
 
   const message = "javascript from siteTwo"
   console.log(message)
-  const a = 4;
-  const b = 4;
+  const a = 6;
+  const b = 6;
   console.log(`${a} + ${b} =`, add(a, b))
   document.getElementById("demo").innerHTML = message + ' ' +  add(a, b);
 }
